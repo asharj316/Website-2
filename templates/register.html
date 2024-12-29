@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="h_main">
+            <span>
+                <a href="home.html"><img src="ssuet logo.jpeg" alt="SSUET Logo" height="70" width="70"></a>
+            </span>
+            <span>SSUET CONNECT</span>
+        </div>
+    </header>
+
+
+    <nav>
+        <div id="navbar">
+            <span class="Footer" id="home"><a href="home.html">Home</a></span>
+            <span class="Footer" id="aboutus"><a href="aboutus.html">About Us</a></span>
+            <span class="Footer" id="register"><a href="register.html">Register</a></span>
+        </div>
+    </nav>
+
+
+    <main>
+        <article>
+            <section>
+                <h1>Register yourself for SSUET Connect</h1>
+                <p>Welcome to SSUET Connect! To become a part of the SSUET community and start connecting with
+                    classmates, faculty, and alumni, please register below. It’s quick and easy, and once you’re signed
+                    up, you’ll have access to events, networking opportunities, and much more.</p>
+            </section>
+
+
+            <section class="form-section">
+                <h3>Fill the form below to become a member of SSUET Connect</h3>
+
+                <h4>Personal Details</h4>
+                <form action="/submit" method="post">
+                    <div class="form-group">
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" placeholder="example@domain.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phoneno">Phone Number:</label>
+                        <input type="tel" id="phoneno" name="phoneno" placeholder="033xxxxxxxx" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="dob">Date of Birth:</label>
+                        <input type="date" id="dob" name="dob" required>
+                    </div>
+
+                    <h4>Academic Information</h4>
+                    <div class="form-group">
+                        <label for="role">Select Role:</label><br>
+                        <input type="radio" id="student" name="role" value="student">
+                        <label for="student">Student</label>
+                        <input type="radio" id="alumni" name="role" value="alumni">
+                        <label for="alumni">Alumni</label>
+                        <input type="radio" id="faculty" name="role" value="faculty">
+                        <label for="faculty">Faculty</label>
+                    </div>
+
+                    <h4>Sign up Credentials</h4>
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" placeholder="Username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" placeholder="Password" required>
+                    </div>
+
+                    <h4>Consent and Agreements</h4>
+                    <div class="form-group">
+                        <input type="checkbox" name="terms" id="terms" required>
+                        <label for="terms">I accept the Terms and Conditions</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" name="privacy" id="privacy" required>
+                        <label for="privacy">I accept the Privacy Policy</label>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Submit</button>
+                </form>
+            </section>
+
+
+            <section>
+                <h4>Contact Us</h4>
+                <p>If you face any issues with registration or have any questions, please contact us at <a
+                        href="mailto:support@ssuetconnect.edu">support@ssuetconnect.edu</a> or call us at
+                    [+92-45455454-3].</p>
+            </section>
+        </article>
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <p>&copy; 2024 SSUET CONNECT. All Rights Reserved.</p>
+            </div>
+            <div class="footer-center">
+                <a href="privacy-policy.html" class="footer-link">Privacy Policy</a> |
+                <a href="terms.html" class="footer-link">Terms & Conditions</a> |
+                <a href="contact.html" class="footer-link">Contact</a>
+            </div>
+            <div class="footer-right">
+                <p>Follow us:</p>
+                <a href="https://www.facebook.com/" target="_blank" class="social-icon">Facebook</a> |
+                <a href="https://www.instagram.com/" target="_blank" class="social-icon">Instagram</a> |
+                <a href="https://www.twitter.com/" target="_blank" class="social-icon">Twitter</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
